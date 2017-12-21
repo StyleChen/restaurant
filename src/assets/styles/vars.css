@@ -1,0 +1,29 @@
+:root {
+  --site-width: calc(1200 / 16 * 1rem);
+  --theme: #ea5820;
+  --theme-lt: #f06f23;
+  --blue-lt: #91b9f0;
+  --orange-lt: #ff7a18;
+  --grey: #666;
+  --grey-lighter: #999;
+  --grey-lightest: #c4c4c4;
+  --grey-bg: #f5f5f5;
+  --form-label-margin: calc(20 / 14 * 1em);
+  --border: #e8e8e8;
+
+  --flex-center: {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  --ellipsis: {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  --unstyle-list: {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
